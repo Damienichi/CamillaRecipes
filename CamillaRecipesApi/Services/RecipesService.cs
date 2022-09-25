@@ -30,7 +30,7 @@ public class RecipesService: IRecipeService
         if (recipe == null)
         {
             _logger.LogError($"Recipe with id {id} not found");
-            return new Recipe();
+            return null;
         }
 
         return recipe;
