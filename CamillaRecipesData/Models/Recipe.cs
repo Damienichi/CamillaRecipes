@@ -15,7 +15,7 @@ public class Recipe
     public DateTime DateAdded { get; set; }
     public DateTime DateModified { get; set; }
     public string Author { get; set; }
-    public Photo? RecipeImage { get; set; }
-    public Video? RecipeVideo { get; set; }
+    public List<Photo>? Images { get; set; }
+    public Video? Video { get; set; }
 
 }

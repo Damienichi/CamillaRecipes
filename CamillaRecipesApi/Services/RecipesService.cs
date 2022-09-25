@@ -51,8 +51,8 @@ public class RecipesService: IRecipeService
             DateModified = DateTime.Now,
             Author = recipe.Author,
             Category = recipe.Category,
-            RecipeImage = recipe.RecipeImage,
-            RecipeVideo = recipe.RecipeVideo,
+            Images = recipe.Images,
+            Video = recipe.Video,
         };
         _context.Recipes.Add(newRecipe);
         return _context.SaveChangesAsync();
