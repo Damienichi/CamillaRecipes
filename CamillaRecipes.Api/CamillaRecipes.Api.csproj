@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CamillaRecipesData\CamillaRecipesData.csproj" />
+      <ProjectReference Include="..\CamillaRecipes.Data\CamillaRecipes.Data.csproj" />
     </ItemGroup>
 
 </Project>
